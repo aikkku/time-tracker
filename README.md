@@ -1,4 +1,4 @@
-# Website Time Tracker – Firefox Extension
+# Website Time Tracker – Firefox/Chrome Extension
 
 This Firefox extension tracks the total time you spend on each website and shows a ranked list from most to least visited, based on time. It helps you understand your browsing habits and manage your time online more effectively.
 
