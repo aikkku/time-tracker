@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Time-Tracker",
+  "version": "1.0.0",
+  "description": "Counts total time spent per website and shows a ranked list in the popup.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    },
+    "default_title": "Time-Tracker",
+    "default_popup": "popup/popup.html"
+  }
+}

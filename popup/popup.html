@@ -1,0 +1,22 @@
+<!-- popup/popup.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="script-src 'self'; object-src 'none';"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Time Tracker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1>Site Time Ranking</h1>
+  <div id="ranking-container">
+    <!-- JS will inject <div class="site-row">…</div> items here -->
+  </div>
+  <button id="reset-btn">Reset All</button>
+  <script src="popup.js"></script>
+</body>
+</html>
