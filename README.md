@@ -12,6 +12,7 @@ This Firefox extension tracks the total time you spend on each website and shows
 
 ## 🧱 Folder Structure
 
+```
 website-time-tracker/
 ├── background.js # Background script that monitors active tabs and updates time tracking
 ├── manifest.json # Extension manifest file (Manifest V2)
@@ -20,6 +21,7 @@ website-time-tracker/
 ├── popup.html # HTML structure of the popup UI
 ├── popup.css # Styling for the popup UI
 └── popup.js # JavaScript logic for reading and displaying site times
+```
 
 ## ⚙️ How It Works
 
